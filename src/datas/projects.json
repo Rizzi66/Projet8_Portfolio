@@ -2,7 +2,7 @@
 	{
 		"id": "1",
 		"title": "Booki",
-		"image": "/src/assets/Booki.png",
+		"image": "https://i.ibb.co/njxpcXq/Booki.png",
 		"github": {
 			"link": "https://github.com/Rizzi66/Projet2_HTMLCSS",
 			"page": "https://rizzi66.github.io/Projet2_HTMLCSS/"
@@ -11,12 +11,12 @@
 			{
 				"id": "1",
 				"name": "HTML",
-				"image": "/src/assets/HTML.png"
+				"image": "https://i.ibb.co/7JM02ry/HTML.png"
 			},
 			{
 				"id": "2",
 				"name": "CSS",
-				"image": "/src/assets/CSS.png"
+				"image": "https://i.ibb.co/kQCZ2y2/CSS.png"
 			}
 		],
 		"competances": [
@@ -30,7 +30,7 @@
 	{
 		"id": "2",
 		"title": "Sophie Bluel - Architecte d'intérieur",
-		"image": "/src/assets/SophieBluel.png",
+		"image": "https://i.ibb.co/b7n1X9Q/Sophie-Bluel.png",
 		"github": {
 			"link": "https://github.com/Rizzi66/Projet3_JavaScript"
 		},
@@ -38,17 +38,17 @@
 			{
 				"id": "1",
 				"name": "HTML",
-				"image": "/src/assets/HTML.png"
+				"image": "https://i.ibb.co/7JM02ry/HTML.png"
 			},
 			{
 				"id": "2",
 				"name": "CSS",
-				"image": "/src/assets/CSS.png"
+				"image": "https://i.ibb.co/kQCZ2y2/CSS.png"
 			},
 			{
 				"id": "3",
 				"name": "JavaScript",
-				"image": "/src/assets/JavaScript.png"
+				"image": "https://image.noelshack.com/fichiers/2024/28/6/1720860295-javascript.png"
 			}
 		],
 		"competances": [
@@ -62,7 +62,7 @@
 	{
 		"id": "3",
 		"title": "Nina Carducci - Photographe",
-		"image": "/src/assets/NinaCarducci.png",
+		"image": "https://i.ibb.co/6N1fp8m/Nina-Carducci.png",
 		"github": {
 			"link": "https://github.com/Rizzi66/Projet4_Optimisation",
 			"page": "https://rizzi66.github.io/Projet4_Optimisation/"
@@ -71,7 +71,7 @@
 			{
 				"id": "1",
 				"name": "jQuery",
-				"image": "/src/assets/jQuery.png"
+				"image": "https://i.ibb.co/NVRGHCb/jQuery.png"
 			}
 		],
 		"competances": [
@@ -89,7 +89,7 @@
 	{
 		"id": "4",
 		"title": "Kasa",
-		"image": "/src/assets/Kasa.png",
+		"image": "https://i.ibb.co/WfbVyZs/Kasa.png",
 		"github": {
 			"link": "https://github.com/Rizzi66/Projet5_React"
 		},
@@ -97,17 +97,17 @@
 			{
 				"id": "1",
 				"name": "JavaScript",
-				"image": "/src/assets/JavaScript.png"
+				"image": "https://image.noelshack.com/fichiers/2024/28/6/1720860295-javascript.png"
 			},
 			{
 				"id": "2",
 				"name": "React",
-				"image": "/src/assets/React.png"
+				"image": "https://image.noelshack.com/fichiers/2024/28/6/1720860296-react.png"
 			},
 			{
 				"id": "3",
 				"name": "Sass",
-				"image": "/src/assets/Sass.png"
+				"image": "https://i.ibb.co/mCDVRwC/Sass.png"
 			}
 		],
 		"competances": [
@@ -125,7 +125,7 @@
 	{
 		"id": "5",
 		"title": "Mon Vieux Grimoire",
-		"image": "/src/assets/MonVieuxGrimoire.png",
+		"image": "https://i.ibb.co/kQRHGtX/Mon-Vieux-Grimoire.png",
 		"github": {
 			"link": "https://github.com/Rizzi66/Projet6_Backend"
 		},
@@ -133,17 +133,17 @@
 			{
 				"id": "1",
 				"name": "NodeJS",
-				"image": "/src/assets/NodeJS.png"
+				"image": "https://i.ibb.co/z4N5DnY/NodeJS.png"
 			},
 			{
 				"id": "2",
 				"name": "ExpressJS",
-				"image": "/src/assets/ExpressJS.png"
+				"image": "https://i.ibb.co/3F2TXfX/Express-JS.png"
 			},
 			{
 				"id": "3",
 				"name": "MongoDB",
-				"image": "/src/assets/MongoDB.png"
+				"image": "https://i.ibb.co/DLsCgJ1/MongoDB.png"
 			}
 		],
 		"competances": [
