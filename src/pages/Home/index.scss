@@ -1,7 +1,7 @@
 @import '../../utils/styles/variables.scss';
 
 .home {
-  transform: translateY(0px);
+  transform: translateY(-50px);
   @media all and (max-width: 799px) {
     transform: translateY(-50px);
   }

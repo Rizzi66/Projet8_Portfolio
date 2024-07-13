@@ -15,7 +15,7 @@ $angle__header: math.atan(calc($longueurY__header / $longueurX));
   height: var(--longueurY__header);
   width: 100%;
   transform: translateY(-$longeurHeader);
-  transition: height 100ms;
+  //transition: height 100ms;
   &__main {
     position: absolute;
     animation:slide 30s ease-in-out infinite alternate;
@@ -26,7 +26,7 @@ $angle__header: math.atan(calc($longueurY__header / $longueurX));
     right:-50%;
     top:0;
     z-index:-2;
-    transition: background-image 100ms;
+   // transition: background-image 100ms;
     &::after {
       content: "";
       display: block;
@@ -35,7 +35,7 @@ $angle__header: math.atan(calc($longueurY__header / $longueurX));
       height: var(--longueurY__main);
       background-image: linear-gradient(var(--angle__main), #00356600 20%, #003566 50%, #001D3D 50%, #001D3D 200%);
       z-index: -2;
-      transition: transform 100ms 1ms;
+      //transition: transform 100ms 1ms;
     }
   }
   &__line2 {
