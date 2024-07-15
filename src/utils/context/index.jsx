@@ -3,8 +3,8 @@ import { useState, createContext } from "react"
 export const BackgroundContext = createContext()
 
 export const BackgroundProvider = ({ children }) => {
-    const [pathName, SetPathName] = useState("/")
-    const [oldPathName, SetOldPathName] = useState("/")
+    const [pathName, SetPathName] = useState("/Projet8_Portfolio/")
+    const [oldPathName, SetOldPathName] = useState("/Projet8_Portfolio/")
 
     const toggleBackground = () => {
         SetOldPathName(window.location.pathname)

@@ -24,23 +24,7 @@ $font-weight-bold: 700;
 
 // Couleurs
 $main-color: #000814;
-$filter-main-color: invert(51%) sepia(77%) saturate(1548%) hue-rotate(324deg)
-  brightness(100%) contrast(101%);
 
 $background-color: #F9F9F9;
-$filter-background-color: saturate(0%) brightness(200%);
-$footer-background-color: #000;
 
-$text-dark-color: #000;
-$text-light-color: #fff;
 
-// Mixin générales
-@mixin absolute-before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}

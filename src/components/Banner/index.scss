@@ -1,10 +1,10 @@
 @import '../../utils/styles/variables.scss';
 
 .banner {
-  position: absolute;
+  position: relative;
   height: 400px;
   width: 100%;
-  transform: translateY(-365px);
+  transform: translateY(35px);
   &__text {
     position: absolute;
     margin-top: 70px;
@@ -28,7 +28,6 @@
   }
   @media all and (max-width: 799px) {
     height: 350px;
-    transform: translateY(-365px);
     &__text {
       & > * {
         color: #F9F9F9;
@@ -37,7 +36,7 @@
     }
   }
   @media all and (max-width: 599px) {
-    transform: translateY(-315px);
+    transform: translateY(70px);
     &__text {
       font-size: 0.8em;   
       & > h2 {

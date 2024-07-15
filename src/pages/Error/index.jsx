@@ -1,5 +1,4 @@
 import './index.scss'
-import Background from '../../components/Background'
 
 function Error() {
 

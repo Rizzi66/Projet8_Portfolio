@@ -1,7 +1,4 @@
 import './index.scss'
-import { Link } from 'react-router-dom'
-import GitHub from '../../assets/github.png'
-import Linkedin from '../../assets/linkedin.png'
 
 function ContactForm() {
   return (

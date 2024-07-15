@@ -11,7 +11,7 @@ $angle__header: math.atan(calc($longueurY__header / $longueurX));
 }
 
 .background {
-  position: relative;
+  position: absolute;
   height: var(--longueurY__header);
   width: 100%;
   transform: translateY(-$longeurHeader);

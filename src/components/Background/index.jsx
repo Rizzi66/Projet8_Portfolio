@@ -4,7 +4,7 @@ import { BackgroundContext } from '../../utils/context'
 
 
 function Background({ longueurX, longueurY_headerMax, longueurY_headerMin, longueurY_main }) {
-
+  
   const { pathName, oldPathName } = useContext(BackgroundContext)
 
   const root = document.documentElement;
@@ -20,41 +20,18 @@ function Background({ longueurX, longueurY_headerMax, longueurY_headerMin, longu
     root?.style.setProperty("--angle__header","-"+angle__header+"deg");
   }
 
+  changementHeader(longueurY_headerMax)
 
-  
-  if (pathName !== oldPathName && (pathName === "/" || oldPathName === "/")) {
-    if (pathName !== "/") {
-      changementHeader(longueurY_headerMin)
-      // console.log("vers petit header")
-    } else {
-      changementHeader(longueurY_headerMax)
-      //console.log("vers grand Background")
-    }  
-  }
-  
+  // Code pour animation du background
 
-  // function transitionVariable(input, output) {
-
-  //   const timingInterval = 1
-
-  //   if (input > output) {
-  //     const myInterval = setInterval(() => {
-  //       const longueurY_header = input--
-  //       changementHeader(longueurY_header)
-  //       if (input <= output) {
-  //         clearInterval(myInterval)
-  //       }
-  //     }, timingInterval)
+  // if (pathName !== oldPathName && (pathName === "/Projet8_Portfolio/" || oldPathName === "/Projet8_Portfolio/")) {
+  //   if (pathName !== "/Projet8_Portfolio/") {
+  //     changementHeader(longueurY_headerMin)
+  //     // console.log("vers petit header")
   //   } else {
-  //     const myInterval = setInterval(() => {
-  //       const longueurY_header = input++
-  //       changementHeader(longueurY_header)
-  //       if (input >= output) {
-  //         clearInterval(myInterval)
-  //       }
-  //     }, timingInterval)
-  //   }
-
+  //     changementHeader(longueurY_headerMax)
+  //     //console.log("vers grand Background")
+  //   }  
   // }
   
   return (

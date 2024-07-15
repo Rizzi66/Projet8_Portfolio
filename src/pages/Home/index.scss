@@ -2,9 +2,6 @@
 
 .home {
   transform: translateY(-50px);
-  @media all and (max-width: 799px) {
-    transform: translateY(-50px);
-  }
   @media all and (max-width: 599px) {
     transform: translateY(-100px);
   }
